@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">用户识别</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">登陆</string>  
+    <string name="register">注册</string>
+    <string name="inputName">输入用户名</string>
+    <string name="backMain">返回</string>
+    <string name="startLogin">开始注册</string>
+    <string name="save">保存</string>
+    <string name="delete">清除</string>
+    <string name="notice">\n注意事项：\n\n1、每次只能书写一个字，保存后才能写下一个字
+        \n\n2、书写姓名是只需输入前两个字\n\n3、若书写错误或者不符合自己习惯，可以清除重写
+        \n\n4、注册需要完成指定次数的书写姓名</string>
+</resources>

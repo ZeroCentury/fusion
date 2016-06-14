@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" >
+
+        <Button
+            android:id="@+id/save"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/buttonstyle"
+            android:text="@string/save" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/buttonstyle"
+            android:text="@string/delete" />
+    </TableRow>
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DCDCDC">
+     <EditText 
+        android:id="@+id/name"
+        android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/txtborder"
+        android:textSize="30dp"
+        android:singleLine="true"
+        android:hint="@string/inputName"/>
+    
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/buttonstyle"
+        android:text="@string/startLogin" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonstyle"
+        android:text="@string/backMain" />
+
+    <TextView
+        android:id="@+id/notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notice" />
+
+</LinearLayout>
